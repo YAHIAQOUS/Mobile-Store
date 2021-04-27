@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+    background-color: WhiteSmoke;
+    font-family: 'Courgette', cursive;
+}
+
+h1{
+    font-family: 'Courgette', cursive, bold;
+    text-align: center;
+    font-weight: bold;
+
+    height: 50px;
+    vertical-align: middle;
+    line-height: 50px;
+}
+
+
+main{
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+
+}
+fieldset{
+    float: left;
+    margin-left: 10%;
+    width: 30%;
+    height: 180px;
+    margin-top: 100px;
+
+    background-color:RGBA(211, 211, 211, 0.548);
+}
+
+label, input, select{
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+label{
+    background: none;
+    margin-top: 20px;
+}
+
+input, select{
+    border-radius: 20px;
+}
+
+
+#submit{
+    font-family: Arial, Helvetica, sans-serif ;
+    font-weight: bold;
+    margin-top: 20px;
+    color: white;
+    background-color: RGB(39, 39, 39);
+}
+
+
+
+
+div{
+    float: right;
+    margin-right: 10%;
+    background-color:RGBA(211, 211, 211, 0.548);
+    width: 30%;
+    height: 180px;
+    display: block;
+    margin-top: 100px;
+}
+
+table{
+    /* display: inline-block; */
+    position: relative;
+    top: 18px;
+    line-height: 30px;
+    padding-top: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+}
+
+ th, td{
+    border: black 1px solid;
+    padding: 5px;
+    text-align: center;
+}
+
+
+
+footer{
+    font-family: 'Courgette', cursive, bold;
+    text-align: center;
+
+    height: 50px;
+    vertical-align: middle;
+    line-height: 50px;
+}
